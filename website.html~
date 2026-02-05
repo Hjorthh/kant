@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KANT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="CSS.css">
+  
+<style>
+
+/*header styles*/
+header{
+padding:50px;
+}
+
+
+
+</style>  
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  
+</head>
+
+
+
+<body>
+<header>
+<img src="images/Logo.PNG" alt="Logo" width="350px" height="auto">
+
+
+</header>
+</body>
+
+<body>
+
+<header>
+  <div class="wrap topbar">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>
+        <h1>KANT</h1>
+        <h4>Art begins at the edge</h4>>
+      </div>
+    </div>
+
+    <div class="controls">
+      <select id="menu">
+        <option value="home">Home</option>
+        <option value="projects">Projects</option>
+        <option value="gallery">Gallery</option>
+        <option value="contact">Contact</option>
+        <option value="about">About</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2 id="pageTitle">Home</h2>
+  <p id="pageSubtitle">Use the dropdown to change sections.</p>
+
+  <section id="home" class="section active">
+    <h3>Welcome</h3>
+    <p>Welcome to KANT.
+Where color meets edge, and art finds its place.
+
+KANT is the Danish word for edge — the line where contrast appears, where form is defined, and where something new begins. Each painting is selected with this idea in mind: works that balance softness and sharpness, intuition and intention.
+
+Discover paintings created to be felt, not just seen.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h3>Projects</h3>
+    <p>ONGOING PROJECTS.</p>
+  </section>
+
+  <section id="gallery" class="section">
+    <h3>Gallery</h3>
+    <p>NEWEST COLLECTION.</p>
+    <figcaption>ski day by Mikkel von Hjorth - $5.000 - go to contact for inquiry</figcaption>
+    <img src="images/skiday.jpg" alt="painting of ski" alt=ski width=300 height=auto>
+  
+
+  </section>
+
+  <section id="contact" class="section">
+    <h3>Contact</h3>
+    <p>Email: mikkela17@yahoo.com</p>
+  </section>
+
+<section id="about" class="section">
+    <h3>About</h3>
+    <p>Write about us here.</p>
+  </section>
+</main>
+
+<!-- Link to JavaScript -->
+<script src="design.js"></script>
+</body>
+</html>
+
+
+
+
+

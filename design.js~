@@ -1,0 +1,24 @@
+const menu = document.getElementById("menu");
+const sections = document.querySelectorAll(".section");
+const pageTitle = document.getElementById("pageTitle");
+const pageSubtitle = document.getElementById("pageSubtitle");
+
+const subtitles = {
+  home: "Use the dropdown to change sections.",
+  projects: "Things you are working on.",
+  gallery: "Images and media.",
+  contact: "How people can reach you.",
+  about: "Information about you."
+};
+
+menu.addEventListener("change", () => {
+  const selected = menu.value;
+
+  sections.forEach(section => {
+    section.classList.remove("active");
+  });
+
+  document.getElementById(selected).classList.add("active");
+  pageTitle.textContent = selected.charAt(0).toUpperCase() + selected.slice(1);
+  pageSubtitle.textContent = subtitles[selected];
+});
